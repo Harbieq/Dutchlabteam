@@ -1,0 +1,208 @@
+.Heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Navbar{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    /* font-size: 16px; */
+}
+
+.Nav{
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    /* font-size: 14px; */
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* font-weight: 700; */
+    color: white;
+    background-color: rgb(56, 148, 225);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* height: 39px;
+    width: 134px; */
+    text-align: center;
+}
+
+
+.btn{
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 14px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(56, 148, 225);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 39px;
+    width: 134px;
+    text-align: center;
+}
+
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text1{
+    color: rgb(15, 34, 74);
+    font-size: 16px;
+}
+
+
+.join{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.analytics{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.Brands{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* width: 90%; */
+    /* margin: 0 auto 0 auto; */
+    /* margin-bottom: 100px; */
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.Shipping, .Automation, .Facility{
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    /* font-size: 14px; */
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-weight: 700;
+    color: black;
+    background-color: rgba(138, 181, 216, 0.200);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* height: 90px;
+    width: 150px; */
+    text-align: center;
+}
+
+.Facility{
+    background-color: rgba(150, 212, 187, 0.200);
+}
+
+.Automation{
+    background-color: rgba(241, 198, 162, 0.2);
+}
+
+.Todo{
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 14px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(20, 115, 194);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+}
+
+.Advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* text-align: center; */
+    width: 90%;
+    margin: 0 auto 0 auto;
+    flex-wrap: wrap;
+}
+
+.Much{
+    font-size: 45px;
+
+}
+.first{
+    display: flex;
+    gap: 3rem;
+    align-items: baseline;
+    font-size: 20px;
+}
+
+.first div:nth-child(1){
+    border-top: 1px solid red;
+}
+
+.first div:nth-child(2){
+    border-top: 1px solid blue;
+}
+
+.first div:nth-child(3){
+    border-top: 1px solid green;
+}
+.second{
+    display: flex;
+    gap: 3rem;
+    align-items: baseline;
+    font-size: 20px;
+}
+
+
+.Do{
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(20, 115, 194);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+} 
+
+@media screen and (max-width: 425px){
+
+    .Heading{
+           font-size: 12px; 
+    }
+    .Nav{
+        margin-left: 10px;
+    }
+    .Navbar li:nth-child(4){
+        display: none;}
+    .Navbar li:nth-child(5){
+        display: none;}
+    .Navbar li:nth-child(6){
+        display: none;}
+    .Nav{
+        display: none;
+    }
+}
